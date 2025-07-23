@@ -1,0 +1,87 @@
+body {
+    transition: all 0.3s;
+    padding-top: 100px;
+}
+#wrap {
+    padding: 0 20px;
+    width: 393px;
+    height: 640px;
+    background: #fcfcfc;
+    border: 1px solid #0DA2FF;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: auto;
+}
+#wrap .title {
+    padding-top: 70px;
+    text-align: center
+}
+#wrap .title h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #0DA2FF;
+}
+#wrap .title p {
+    margin-top: 8px;
+    font-size: 0.875rem;
+    color: #aaa;
+}
+#wrap .regis {
+    margin: 28px 0 28px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+#wrap .regis #todo{
+    width: 280px;
+    border: 1px solid #0DA2FF;
+    color: #0DA2FF;
+    padding-left: 12px;
+    border-radius: 5px;
+}
+#wrap .regis #todo::placeholder{
+    color: #ccc;
+}
+#wrap .regis .submit{
+    padding: 6.5px 9px;
+    background: #D2EBFF;
+    color: #0DA2FF;
+    border-radius: 5px;
+    border: 1px solid #0DA2FF;
+}
+#wrap .regis .submit:hover{
+    background: #0DA2FF;
+    color: #D2EBFF;
+    border: 1px solid #D2EBFF;
+    box-shadow: 3px 3px;
+}
+#wrap .list {
+    width: 100%;
+}
+#wrap .list li{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+#wrap .list li .checkbox{
+    width: 16px; line-height: 16px;
+}
+#wrap .list li .checkbox img{
+    width: 100%;
+}
+#wrap .list li .listup{
+    width: 280px; line-height: 32px;
+    border-top-left-radius: 18px;
+    background: #D2EBFF ;
+    color: #0DA2FF;
+    padding-left: 12px;
+    border-bottom: 1px solid #0DA2FF;
+}
+#wrap .list li .del{
+    width: 16px; line-height: 16px;
+}
+#wrap .list li .del img{
+    width: 100%;
+}

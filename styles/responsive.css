@@ -1,0 +1,21 @@
+@media screen and (max-width:768px){
+    #wrap .title h1 {
+        font-size: 1.5rem;
+    }
+    #wrap .title p {
+        font-size: 0.75rem;
+    }
+    #wrap .regis {
+        margin: 24px 0 24px;
+    }
+    #wrap .regis #todo{
+        font-size: 0.875rem;
+    }
+    #wrap .regis .submit{
+        font-size: 0.875rem;
+        padding: 6.5px 12px;
+    }
+    #wrap .list li .listup{
+        font-size: 0.875rem;
+    }
+}
