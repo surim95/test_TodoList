@@ -46,7 +46,7 @@ body {
 #wrap .regis .submit{
     padding: 6.5px 9px;
     background: #D2EBFF;
-    color: #0DA2FF;
+    color: #0DA2FF; font-weight: 500;
     border-radius: 5px;
     border: 1px solid #0DA2FF;
 }
