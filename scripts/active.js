@@ -47,7 +47,7 @@ todoBtn.addEventListener('click',()=>{
             /* 삭제 이벤트 */
             for (let i of delBtn){
                 i.addEventListener('click',()=>{
-                    i.parentElement.style.display = 'none';
+                    i.parentElement.remove();
                 })
             }
     } else {
